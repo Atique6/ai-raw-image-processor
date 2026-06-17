@@ -42,18 +42,20 @@ ai-raw-image-processor/
 ├── .gitignore
 ├── .env.example
 ├── requirements.txt
-├── pyproject.toml
 ├── imageprocessor/
-│   ├── main.py
-│   ├── ImageProcessing.py
-│   ├── ai_integration.py
-│   ├── config.py
-│   ├── data.py
-│   └── directory_management.py
+│   ├── README.md
+│   ├── pyproject.toml
+│   └── src/
+│       ├── main.py
+│       ├── ImageProcessing.py
+│       ├── ai_integration.py
+│       ├── config.py
+│       ├── data.py
+│       └── directory_management.py
 ├── sample_images/
 │   ├── PAN00001.DNG
 │   ├── R62_0323.CR3
-│   └── R62_4289.CR3
+│   └── R62_0323.jpeg
 └── tests/
     ├── test_ImageProcessing.py
     ├── test_api.py
@@ -61,6 +63,7 @@ ai-raw-image-processor/
     ├── test_directory_managment.py
     └── test_main.py
 ```
+
 
 ---
 
@@ -108,14 +111,14 @@ From the main project folder, run:
 
 ```bash
 cd imageprocessor
-python main.py
+python src/main.py
 ```
 
 or:
 
 ```bash
 cd imageprocessor
-flet run main.py
+flet run src/main.py
 ```
 
 ---
