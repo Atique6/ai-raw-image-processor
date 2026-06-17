@@ -42,9 +42,8 @@ ai-raw-image-processor/
 ├── .gitignore
 ├── .env.example
 ├── requirements.txt
+├── pyproject.toml
 ├── imageprocessor/
-│   ├── README.md
-│   ├── pyproject.toml
 │   └── src/
 │       ├── main.py
 │       ├── ImageProcessing.py
@@ -63,7 +62,6 @@ ai-raw-image-processor/
     ├── test_directory_managment.py
     └── test_main.py
 ```
-
 
 ---
 
